@@ -1,10 +1,9 @@
-package servlet ;
+package etu1829.framework.servlet;
 import java.sql.*;
 import java.io.*; 
 import javax.servlet.*; 
 import javax.servlet.http.*;
 import java.util.*;
-import utilitaire.Utilitaire;
 public class FrontServlet extends HttpServlet {
     protected void processRequest (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException { 
         PrintWriter out = res.getWriter();
